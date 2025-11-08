@@ -34,6 +34,8 @@ if order in menu:
 else:
     print("\nSorry, that item is not on the menu.")
 # OUTPUT:
+![WhatsApp Image 2025-11-08 at 11 23 31_2bca4c69](https://github.com/user-attachments/assets/5d6f9db0-2a22-40f8-835c-39fcd0dee896)
+
 ![WhatsApp Image 2025-11-08 at 11 23 08_1b12387b](https://github.com/user-attachments/assets/cfe634bf-e0f8-4c3a-8715-f4136fc5a596)
 
 
@@ -82,5 +84,7 @@ else:
 print(f"Average = {average:.2f}")
 print(f"Grade = {grade}")
 # OUTPUT:
+![WhatsApp Image 2025-11-08 at 11 14 30_bfbdf60b](https://github.com/user-attachments/assets/9ca3fc60-d1f0-4a38-b462-391255d8bca2)
+
 ![WhatsApp Image 2025-11-08 at 11 15 18_55d60ef3](https://github.com/user-attachments/assets/9c26e0d4-2703-4214-956a-8a6fa5eefce8)
 
