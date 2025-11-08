@@ -16,8 +16,25 @@ You need to write a Python program that:
 3.	Calculates and displays the total bill.
 
 # Code:
+menu = {
+    "coffee": 60,
+    "sandwich": 120,
+    "cake": 80
+}
 
+print("Welcome to the Café!")
+print("Menu:")
+for item, price in menu.items():
+    print(f"{item.capitalize()} - ₹{price}")
+order = input("\nWhat would you like to order? ").lower()
+if order in menu:
+    quantity = int(input(f"How many {order}s would you like? "))
+    total = menu[order] * quantity
+    print(f"\nYour total bill for {quantity} {order}(s) is ₹{total}.")
+else:
+    print("\nSorry, that item is not on the menu.")
 # OUTPUT:
+![WhatsApp Image 2025-11-08 at 11 23 08_1b12387b](https://github.com/user-attachments/assets/cfe634bf-e0f8-4c3a-8715-f4136fc5a596)
 
 
 # Question 2:
@@ -45,5 +62,25 @@ Grade = A
 
 
 # Code:
+mark1 = float(input("Enter mark for Subject 1: "))
+mark2 = float(input("Enter mark for Subject 2: "))
+mark3 = float(input("Enter mark for Subject 3: "))
 
+average = (mark1 + mark2 + mark3) / 3
+
+if average >= 90:
+    grade = "A+"
+elif average >= 75:
+    grade = "A"
+elif average >= 60:
+    grade = "B"
+elif average >= 40:
+    grade = "C"
+else:
+    grade = "Fail"
+
+print(f"Average = {average:.2f}")
+print(f"Grade = {grade}")
 # OUTPUT:
+![WhatsApp Image 2025-11-08 at 11 15 18_55d60ef3](https://github.com/user-attachments/assets/9c26e0d4-2703-4214-956a-8a6fa5eefce8)
+
